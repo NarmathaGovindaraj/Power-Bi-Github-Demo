@@ -85,6 +85,15 @@
           "z": 1000.00
         },
         {
+          "config": "{\"name\":\"908e7e9ddd5c86dec5d6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":32.12623128561213,\"y\":217.32450575561145,\"z\":2001,\"width\":211.65517082285638,\"height\":192.75738771367276,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"TrainingSample2.Demo\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"TrainingSample2\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Demo\"},\"Name\":\"TrainingSample2.Demo\",\"NativeReferenceName\":\"Demo\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Demo\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 192.76,
+          "width": 211.66,
+          "x": 32.13,
+          "y": 217.32,
+          "z": 2001.00
+        },
+        {
           "config": "{\"name\":\"aea879b6a82e8cc83b94\",\"layouts\":[{\"id\":0,\"position\":{\"x\":307.4157303370786,\"y\":97.07865168539325,\"z\":0,\"width\":859.1460674157303,\"height\":415.82022471910113,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"TrainingSample2.Country\"},{\"queryRef\":\"TrainingSample2.Total_Sales\"},{\"queryRef\":\"TrainingSample2.Sales_ALL\"},{\"queryRef\":\"TrainingSample2.% Contribution\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"TrainingSample2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Country\"},\"Name\":\"TrainingSample2.Country\",\"NativeReferenceName\":\"Country\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Total_Sales\"},\"Name\":\"TrainingSample2.Total_Sales\",\"NativeReferenceName\":\"Total_Sales\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Sales_ALL\"},\"Name\":\"TrainingSample2.Sales_ALL\",\"NativeReferenceName\":\"Sales_ALL\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"% Contribution\"},\"Name\":\"TrainingSample2.% Contribution\",\"NativeReferenceName\":\"% Contribution\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"values\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}}}}],\"columnHeaders\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}}}]}}}",
           "filters": "[]",
           "height": 415.82,
@@ -134,15 +143,6 @@
           "x": 25.89,
           "y": 118.11,
           "z": 0.00
-        },
-        {
-          "config": "{\"name\":\"4491842718c9917c629f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":141.73337331887703,\"y\":470.55479941867173,\"z\":2000,\"width\":272.1280767722439,\"height\":177.63916122632588,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"TrainingSample2.SalesDate\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"TrainingSample2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"SalesDate\"},\"Name\":\"TrainingSample2.SalesDate\",\"NativeReferenceName\":\"SalesDate\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"SalesDate\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}]}}}",
-          "filters": "[{\"name\":\"Filter7a06396a03ee71989841\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"TrainingSample2\"}},\"Property\":\"TimeLine Slicer Disable\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"TrainingSample2\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"TimeLine Slicer Disable\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
-          "height": 177.64,
-          "width": 272.13,
-          "x": 141.73,
-          "y": 470.55,
-          "z": 2000.00
         },
         {
           "config": "{\"name\":\"c336b11ad889a5a0beeb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":769.1397725437727,\"y\":362.8374356963252,\"z\":3000,\"width\":209.76539251193802,\"height\":149.29248656255047,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"TrainingSample2.Region\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"TrainingSample2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Region\"},\"Name\":\"TrainingSample2.Region\",\"NativeReferenceName\":\"Region\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}]}}}",

@@ -877,6 +877,17 @@
             "expression": "IF(ISFILTERED('TrainingSample2'[Business Segment]),1,0)",
             "formatString": "0",
             "lineageTag": "59534b62-2645-42f8-b0c3-0b523420d422"
+          },
+          {
+            "name": "Demo",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(TrainingSample2[Sales])",
+            "lineageTag": "4df3627d-8706-4265-a519-998052a86ff0"
           }
         ],
         "partitions": [
